@@ -1,11 +1,12 @@
 import { useState } from "react"
+import User from "./user";
 
 function App() {
   const [display,setDisplay]=useState(false);
   return (
     <>
     {
-      display?<h1>Toggle is on</h1>:null
+      display?<User></User>:null
     }
     <button onClick={()=>setDisplay(!display)}>Toggle</button>
     </>
