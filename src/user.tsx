@@ -1,7 +1,7 @@
 function User() {
   return (
     <div>
-      <h1>Toggle in On</h1>
+      <h1>Show User component</h1>
     </div>
   );
 }
