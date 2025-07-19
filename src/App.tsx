@@ -7,6 +7,7 @@ function App() {
     {
       display?<h1>Toggle is on</h1>:null
     }
+    <button onClick={()=>setDisplay(!display)}>Toggle</button>
     </>
   )
 }
